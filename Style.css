@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+    
+}
+.header li{
+    margin-top: 20px;
+}
+.header li a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*header*/
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#products{
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 8px;
+}
+.products :hover{
+    background-color:black;
+    color: white;
+    transition: 0.5s ease ease-in-out;
+ }
+ 
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#section{
+    width: 250px;
+    height: 350px;
+    border:1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 14px;
+}
+.section :hover{
+   background-color:black;
+   color: white;
+   transition: 0.5s ease ease-in-out;
+}
+
+#products .btn{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+   font-style: italic;
+ }
+#products .btn:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px ;
+    transition: 0.7s ease-in-out;
+   
+}
+#products .btn:hover{
+    outline:3px solid #02bde2;
+}
+#section .btn{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+   font-style: italic;
+ }
+#section .btn:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px ;
+    transition: 0.7s ease-in-out;
+   
+}
+#section .btn:hover{
+    outline:3px solid #6a02f3;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    margin-top: 20px;
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-style: italic;
+    font-weight: 400;
+}
+.footer a{
+    color: white;
+}
+.social-icons img{
+    width: 60px;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+}
+.social-icons img:hover{
+    background-color: rgb(212, 208, 208);
+}
+
+
+@media screen and (max-width:600px){
+    .products{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+     
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+         
+        }
+        .prod{
+           text-align: center;
+           
+             
+        }
+    
+}
+
